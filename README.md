@@ -1,6 +1,7 @@
 
 phase_3 project
-Analyzing the water pumps functionality of Tanzania Wells
+
+Analyzing the water pumps' functionality of wells in Tanzania 
 
 Project overview
 Tanzania, a country facing challenges in providing clean water to its over 57 million population, struggles with maintaining and repairing existing water wells. This project focuses on constructing a classifier to predict the condition of water wells across the country. By leveraging data encompassing pump types, installation dates, and other pertinent features, the objective is to aid NGOs or the Tanzanian government in identifying wells necessitating repair or maintenance. This initiative aims to enhance water accessibility and availability for the population, especially in remote or underprivileged areas.
@@ -21,27 +22,38 @@ With over 59,000 data points.
 
 Methodology
 Data Collection and Exploration: Gather diverse water well data in Tanzania. Analyze for patterns and missing values.
-image
-Feature Engineering and Preprocessing: Modify and prepare data for modeling.
-image
+![Alt text](images/iFunctionality.images.png)
 
-Model Selection and Training: Evaluate various machine learning algorithms. Train models using cross-validation.
-base model
+![Alt text](<new comparison.png>)
 
-Hyperparameter Tuning and Model Evaluation: Fine-tune model settings and assess performance.
-final model
+Feature Engineering and Preprocessing:
 
-Model Deployment and Recommendations: Deploy optimized model for predictions. Provide actionable insights to aid maintenance prioritization.
-test it
+- Modify and prepare data for modeling.Have a base model so as to see how preprocessing affect the model
+![Alt text](<images/base model.png>)
 
+Model Selection and Training:
 
-conclusion 
+- Evaluate various machine learning algorithms through preprocessing and training using different classifiers to find the best classifier.
+![Alt text](<images/best model.png>)
 
 
-recommendations
+CONCLUSION
 
+- Most of the functional wells are found in the city where people mostly pay to use them. More wells similar to those in the city should be built in other region with focus on pumps that will work on gravity.
 
-next steps
+- The wells that were recorded a long time ago most are non functional and in need of repairs this is to show they have been neglected.
+
+- Wells that run on soft water sources the most functional.
+
+RECOMMENDATION
+
+- Build more wells resembling those in urban areas in other regions that experience water shortage, especially focusing on implementing pumps that operate using gravity and have soft water sources. This replication strategy might enhance the functionality of wells in other areas 
+- Increase attention and maintenance of older wells to prevent deterioration 
+
+NEXT STEPS
+- Further exploration into wider scopes of data and analysis of different features on how they affect functionality
+- Develop a strong strategy on well maintenance and repairs
+- Implement recommendations
 
 
 
