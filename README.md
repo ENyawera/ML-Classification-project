@@ -3,6 +3,9 @@ phase_3 project
 
 Analyzing the water pumps' functionality of wells in Tanzania 
 
+![blog-well-pump](https://github.com/ENyawera/ML-Classification-project/assets/111336076/ad487401-330d-4edf-ada0-c74af0cc1a09)
+
+
 Project overview
 Tanzania, a country facing challenges in providing clean water to its over 57 million population, struggles with maintaining and repairing existing water wells. This project focuses on constructing a classifier to predict the condition of water wells across the country. By leveraging data encompassing pump types, installation dates, and other pertinent features, the objective is to aid NGOs or the Tanzanian government in identifying wells necessitating repair or maintenance. This initiative aims to enhance water accessibility and availability for the population, especially in remote or underprivileged areas.
 
@@ -24,17 +27,19 @@ Methodology
 Data Collection and Exploration: Gather diverse water well data in Tanzania. Analyze for patterns and missing values.
 ![Alt text](images/iFunctionality.images.png)
 
-![Alt text](<new comparison.png>)
+![new comparison](https://github.com/ENyawera/ML-Classification-project/assets/111336076/81f3187b-e181-4d64-aabf-ba0dc2c99927)
+
 
 Feature Engineering and Preprocessing:
 
 - Modify and prepare data for modeling.Have a base model so as to see how preprocessing affect the model
-![Alt text](<images/base model.png>)
+![new base model](https://github.com/ENyawera/ML-Classification-project/assets/111336076/d4b49bf5-25b1-4411-9cd8-8e6d72b3ea3e)
+
 
 Model Selection and Training:
 
 - Evaluate various machine learning algorithms through preprocessing and training using different classifiers to find the best classifier.
-![Alt text](<images/best model.png>)
+![new best model](https://github.com/ENyawera/ML-Classification-project/assets/111336076/25727949-35bb-4f54-a024-f100f77d497e)
 
 
 CONCLUSION
